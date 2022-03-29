@@ -90,7 +90,7 @@ function setup() {
 }
 
 function draw() {
-  
+  drawSprites();
   //crea el texto de la puntuación en la pantalla
 
   fill("red");
@@ -165,7 +165,7 @@ function draw() {
       }     
    }
      
-  drawSprites();
+  
 }
 
 function spawnObstacles(){
